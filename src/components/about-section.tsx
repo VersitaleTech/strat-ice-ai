@@ -1,4 +1,5 @@
 import { CircleCheck as CheckCircle } from "lucide-react";
+import { AISupportVisualization } from "./ai-support-visualization";
 
 export const AboutSection = () => {
   const keyPoints = [
@@ -42,19 +43,8 @@ export const AboutSection = () => {
             </div>
           </div>
           
-          <div className="relative">
-            <div className="service-card p-8 rounded-2xl">
-              <div className="text-center">
-                <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 glow-ice">
-                  <div className="w-12 h-12 bg-primary rounded-full animate-pulse"></div>
-                </div>
-                <h3 className="text-2xl font-bold mb-4">AI-First Approach</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Every solution we build is designed with artificial intelligence at its core, 
-                  ensuring your business stays ahead of the curve in an increasingly automated world.
-                </p>
-              </div>
-            </div>
+          <div className="relative animate-slide-up">
+            <AISupportVisualization />
           </div>
         </div>
       </div>
