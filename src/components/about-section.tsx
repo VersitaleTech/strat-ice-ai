@@ -21,10 +21,7 @@ export const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              We're a specialized AI agency that bridges the gap between cutting-edge artificial 
-              intelligence and real business results. Our team of AI engineers and business strategists 
-              work exclusively with ambitious companies ready to harness the power of automation, 
-              intelligent chatbots, and data-driven workflows to outpace their competition.
+              We specialize in AI customer support solutions that transform how businesses serve their customers through intelligent automation. Working directly with forward-thinking companies, we implement smart chatbots, customer service automation, and intelligent workflows that deliver measurable results. Our AI-powered solutions help businesses provide 24/7 support, drastically reduce response times, and enable their teams to focus on high-value customer interactions that drive real business growth.
             </p>
             
             <div className="space-y-4">
