@@ -53,8 +53,8 @@ export const HowWeWorkSection = () => {
                 </div>
               </div>
               
-              <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+              <h3 className="text-lg font-bold mb-3 px-2">{step.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed px-2">{step.description}</p>
             </div>
           ))}
         </div>
