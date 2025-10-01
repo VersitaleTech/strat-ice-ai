@@ -49,24 +49,18 @@ export const HowWeWorkSection = () => {
                   <div className="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center glow-ice group-hover:glow-ice-strong transition-all duration-300">
                     <step.icon className="w-12 h-12 text-primary" />
                   </div>
+                  {index < steps.length - 1 && (
+                    <div className="hidden lg:block absolute top-1/2 -translate-y-1/2 -right-16 z-20">
+                      <ArrowRight className="w-8 h-8 text-primary animate-pulse" />
+                    </div>
+                  )}
                 </div>
 
                 <h3 className="text-xl font-bold mb-3 px-2 min-h-[3.5rem] flex items-center justify-center">{step.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed px-2">{step.description}</p>
-
-                {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-12 -right-4 z-20">
-                    <ArrowRight className="w-8 h-8 text-primary animate-pulse" />
-                  </div>
-                )}
               </div>
             ))}
           </div>
-        </div>
-        
-        {/* Timeline connector for desktop */}
-        <div className="hidden lg:block relative mt-8">
-          <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-full h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50"></div>
         </div>
       </div>
     </section>
