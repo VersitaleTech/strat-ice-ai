@@ -20,9 +20,17 @@ export const AboutSection = () => {
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-slide-up">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              We specialize in AI customer support solutions that transform how businesses serve their customers through intelligent automation. Working directly with forward-thinking companies, we implement smart chatbots, customer service automation, and intelligent workflows that deliver measurable results. Our AI-powered solutions help businesses provide 24/7 support, drastically reduce response times, and enable their teams to focus on high-value customer interactions that drive real business growth.
-            </p>
+            <div className="space-y-4 mb-8">
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                We specialize in AI customer support solutions that transform how businesses serve their customers through intelligent automation.
+              </p>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                Working directly with forward-thinking companies, we implement smart chatbots, customer service automation, and intelligent workflows that deliver measurable results.
+              </p>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+                Our AI-powered solutions help businesses provide 24/7 support, drastically reduce response times, and enable their teams to focus on high-value customer interactions that drive real business growth.
+              </p>
+            </div>
             
             <div className="space-y-4">
               {keyPoints.map((point, index) => (
