@@ -44,16 +44,16 @@ export const HowWeWorkSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div key={index} className="timeline-step text-center group">
-              <div className="relative mb-6">
-                <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 glow-ice group-hover:glow-ice-strong transition-all duration-300">
-                  <step.icon className="w-10 h-10 text-primary" />
-                </div>
-                <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-sm font-bold">
+              <div className="relative mb-6 flex flex-col items-center">
+                <div className="absolute -top-4 right-1/2 translate-x-1/2 w-10 h-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-sm font-bold shadow-lg z-10">
                   {step.number}
                 </div>
+                <div className="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center glow-ice group-hover:glow-ice-strong transition-all duration-300 mt-6">
+                  <step.icon className="w-12 h-12 text-primary" />
+                </div>
               </div>
-              
-              <h3 className="text-lg font-bold mb-3 px-2">{step.title}</h3>
+
+              <h3 className="text-xl font-bold mb-3 px-2 min-h-[3.5rem] flex items-center justify-center">{step.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed px-2">{step.description}</p>
             </div>
           ))}
