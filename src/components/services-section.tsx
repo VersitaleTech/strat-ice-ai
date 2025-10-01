@@ -54,7 +54,7 @@ export const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-secondary/30">
+    <section id="services" className="py-20 px-4 bg-secondary/30">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

@@ -1,4 +1,4 @@
-import { CheckCircle } from "lucide-react";
+import { CircleCheck as CheckCircle } from "lucide-react";
 
 export const AboutSection = () => {
   const keyPoints = [
@@ -9,7 +9,7 @@ export const AboutSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section id="about" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

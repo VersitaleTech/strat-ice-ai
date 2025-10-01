@@ -26,7 +26,7 @@ export const ContactSection = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-secondary/30 relative overflow-hidden">
+    <section id="contact" className="py-20 px-4 bg-secondary/30 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-32 h-32 border border-primary rounded-full"></div>
