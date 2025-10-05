@@ -1,4 +1,4 @@
-import { Heart, ShoppingCart, Briefcase, Home, ArrowRight } from "lucide-react";
+import { Heart, ShoppingCart, Briefcase, Chrome as Home, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
 const industries = [

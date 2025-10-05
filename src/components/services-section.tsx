@@ -1,4 +1,4 @@
-import { Calendar, Cog, MessageSquare, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Calendar, Cog, MessageSquare, Phone, ArrowRight, CircleCheck as CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import {
   Accordion,
