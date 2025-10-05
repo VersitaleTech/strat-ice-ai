@@ -27,12 +27,6 @@ export const ContactSection = () => {
 
   return (
     <section id="contact" className="py-20 px-4 bg-secondary/30 relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-32 h-32 border border-primary rounded-full"></div>
-        <div className="absolute bottom-20 right-10 w-48 h-48 border border-primary rounded-full"></div>
-        <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-primary/20 rounded-full blur-xl"></div>
-      </div>
       
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center mb-16 animate-slide-up">
