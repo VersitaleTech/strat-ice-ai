@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { FallingStars } from "@/components/ui/falling-stars";
 import { Mail, Phone, Calendar } from "lucide-react";
 import { useState } from "react";
 
@@ -27,7 +28,8 @@ export const ContactSection = () => {
 
   return (
     <section id="contact" className="py-20 px-4 bg-secondary/30 relative overflow-hidden">
-      
+      <FallingStars />
+
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center mb-16 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
