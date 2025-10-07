@@ -47,7 +47,6 @@ export const SocialProofSection = () => {
               key={index}
               className="service-card p-8 rounded-2xl relative"
             >
-              <Quote className="absolute top-6 right-6 w-8 h-8 text-primary/20" />
 
               <div className="flex items-center gap-4 mb-6">
                 <img
