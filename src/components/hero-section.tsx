@@ -29,12 +29,6 @@ export const HeroSection = () => {
 
       <div className="relative z-10 container px-4 text-center">
         <div className="max-w-5xl mx-auto animate-fade-in">
-          <div className="inline-block px-4 py-2 bg-primary/20 border border-primary/30 rounded-full mb-6">
-            <span className="text-primary font-semibold text-sm">
-              Trusted by 50+ Businesses in Aruba & Beyond
-            </span>
-          </div>
-
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Increase Customer Support Efficiency by{" "}
             <span className="gradient-text">80%</span> with Custom AI Solutions
