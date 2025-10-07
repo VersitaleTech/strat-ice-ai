@@ -15,12 +15,6 @@ export const ServicesSection = () => {
     }
   };
 
-  const scrollToCaseStudies = () => {
-    const element = document.getElementById('case-studies');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   const services = [
     {
@@ -213,17 +207,10 @@ export const ServicesSection = () => {
               <div className="flex gap-3">
                 <Button
                   variant="hero"
-                  className="flex-1"
+                  className="w-full"
                   onClick={scrollToContact}
                 >
                   Get Started
-                </Button>
-                <Button
-                  variant="hero-outline"
-                  className="flex-1"
-                  onClick={scrollToCaseStudies}
-                >
-                  See Case Study
                 </Button>
               </div>
             </div>
