@@ -74,19 +74,6 @@ export const SocialProofSection = () => {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-6 py-3">
-            <div className="flex -space-x-2">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-accent border-2 border-background"></div>
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-primary border-2 border-background"></div>
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-accent border-2 border-background"></div>
-            </div>
-            <p className="text-sm font-medium">
-              <span className="text-primary font-bold">50+</span> businesses already using our AI solutions
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
